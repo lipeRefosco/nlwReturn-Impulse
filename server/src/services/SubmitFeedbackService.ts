@@ -24,7 +24,7 @@ export class SubmitFeedbackService{
             throw new Error('Comment is required!');
         }
 
-        if(typeof screenshot === 'string' && !screenshot.startsWith('data:image/png;base64, ')) {
+        if(typeof screenshot === 'string' && !screenshot.startsWith('data:image/png;base64,')) {
             throw new Error('Invalid screenshot format!');
         }
 
