@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.SubmitFeedbackService = void 0;
 class SubmitFeedbackService {
     constructor(feedbacksRepository, mailAdapter) {
         this.feedbacksRepository = feedbacksRepository;
